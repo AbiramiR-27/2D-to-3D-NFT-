@@ -1,0 +1,66 @@
+# ==============================================================================
+# Security Exclusions (STRICT: Never commit secrets, keys, or credentials)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+!*.public.pem
+*_private.*
+*.key
+*.secret
+backend/keys/*_private.pem
+
+# ==============================================================================
+# Node.js & Dependencies
+# ==============================================================================
+node_modules/
+*/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================================================================
+# Python & Testing Artifacts
+# ==============================================================================
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+
+# ==============================================================================
+# Runtime Database & Transient Data
+# ==============================================================================
+*.db
+*.db-journal
+*.sqlite
+backend/data/*.db
+backend/data/uploads/*
+backend/data/models/*
+backend/data/certificates/*
+!backend/data/.gitkeep
+!backend/keys/.gitkeep
+
+# ==============================================================================
+# Blockchain & Hardhat Build Artifacts
+# ==============================================================================
+blockchain/cache/
+blockchain/artifacts/
+
+# ==============================================================================
+# Operating System & IDE Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.local
