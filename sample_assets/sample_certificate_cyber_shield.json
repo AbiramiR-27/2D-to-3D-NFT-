@@ -1,0 +1,20 @@
+{
+  "certificate_id": "cert_ab0604d92ebb",
+  "payload": {
+    "certificate_id": "cert_ab0604d92ebb",
+    "asset_id": "sample_asset_001",
+    "asset_title": "Cyber Shield Provenance Demo",
+    "creator_display_name": "SoI Research Team",
+    "model_filename": "sample_model_cyber_shield.glb",
+    "model_format": "glb",
+    "model_sha256": "20ebc17320173d177f5ffed38e6fb04d0312e9d691d549bbc72f4d7a526e673a",
+    "issue_timestamp": "2026-10-26T09:38:52.544832+00:00",
+    "certificate_version": "1.0",
+    "signature_algorithm": "Ed25519",
+    "public_key_id": "urn:soi:key:ed25519:dev-01"
+  },
+  "signature_hex": "413a8f13b82b3ddae43fec5c3a37f2e734e75dfb81f657273b5413374f550ef4922246ac91ccbd4614ae4d9934330a4b60e8ac2c520f6d2fe583d8a09a60fc00",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAkfHgFNWIlykQoWO7AhtYiiR9DhBDVlutQERNijxsZs4=\n-----END PUBLIC KEY-----\n",
+  "is_development_key": true,
+  "trust_note": "Notice: This certificate uses a local development Ed25519 key for demonstration purposes. A valid cryptographic signature proves the certificate contents have not been altered since issuance by the holder of this private key, but does not verify real-world legal identity."
+}

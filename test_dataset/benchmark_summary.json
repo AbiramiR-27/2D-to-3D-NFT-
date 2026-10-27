@@ -1,0 +1,347 @@
+{
+  "execution_timestamp": "2026-10-27T09:53:49Z",
+  "total_test_files": 10,
+  "unchanged_files_verified": 10,
+  "altered_files_detected": 10,
+  "local_vs_testnet_matches": 10,
+  "false_mismatches": 0,
+  "failures": 0,
+  "retests_required": 0,
+  "success_rate_percent": 100.0,
+  "performance_metrics": {
+    "avg_original_verification_ms": 9.44,
+    "avg_altered_verification_ms": 8.28,
+    "avg_mint_tx_time_ms": 32.51
+  },
+  "blockchain_cost_metrics": {
+    "network": "Hardhat Local Testnet (Chain ID 31337)",
+    "contract_address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "total_gas_consumed": 3179690,
+    "average_gas_per_mint": 317969,
+    "total_fees_eth": 0.00463873,
+    "average_fee_per_mint_eth": 0.00046387,
+    "estimated_cost_usd_at_3000": 13.9162
+  },
+  "assets": [
+    {
+      "index": 1,
+      "asset_label": "asset_01",
+      "asset_id": "asset_3b104b6d73",
+      "token_id": 1,
+      "certificate_id": "cert_efa33a5964be",
+      "orig_size_bytes": 484692,
+      "orig_sha256": "ecc112cd260669714ab691479a6da9ecb857424a0d38c51d3cc65c416aed90c6",
+      "altered_sha256": "98c694fbdff403e170a5b8dae376a4f3b08d6246827da6e02c647b54371a676c",
+      "tamper_offset": 74,
+      "local_record_hash": "ecc112cd260669714ab691479a6da9ecb857424a0d38c51d3cc65c416aed90c6",
+      "testnet_record_hash": "ecc112cd260669714ab691479a6da9ecb857424a0d38c51d3cc65c416aed90c6",
+      "local_vs_testnet_match": true,
+      "orig_verification_passed": true,
+      "orig_status": "VERIFIED_AUTHENTIC",
+      "altered_verification_rejected": true,
+      "altered_status": "ASSET_MODIFIED",
+      "timings_ms": {
+        "3d_generation": 165.41,
+        "cert_signing": 24.59,
+        "onchain_mint": 40.59,
+        "orig_verification": 11.19,
+        "altered_verification": 9.71
+      },
+      "blockchain": {
+        "tx_hash": "41200542feea0ae30b8802eb8e34aab2904ff7c8a6b2fb3413d8c971c38f878f",
+        "block_number": 2,
+        "gas_used": 333359,
+        "gas_price_gwei": 1.7714,
+        "tx_fee_eth": 0.00059052
+      }
+    },
+    {
+      "index": 2,
+      "asset_label": "asset_02",
+      "asset_id": "asset_fc023895cd",
+      "token_id": 2,
+      "certificate_id": "cert_c30caaeb9f6e",
+      "orig_size_bytes": 478140,
+      "orig_sha256": "1054e2d4d55dc6adfe17b9d571c04d61cb01e03a0d7320dfdc8d05185e46376f",
+      "altered_sha256": "3fb4b2f09d73eb4b1a63b365e87a32613a28496e270163a2ed9e0529e018aa42",
+      "tamper_offset": 84,
+      "local_record_hash": "1054e2d4d55dc6adfe17b9d571c04d61cb01e03a0d7320dfdc8d05185e46376f",
+      "testnet_record_hash": "1054e2d4d55dc6adfe17b9d571c04d61cb01e03a0d7320dfdc8d05185e46376f",
+      "local_vs_testnet_match": true,
+      "orig_verification_passed": true,
+      "orig_status": "VERIFIED_AUTHENTIC",
+      "altered_verification_rejected": true,
+      "altered_status": "ASSET_MODIFIED",
+      "timings_ms": {
+        "3d_generation": 181.23,
+        "cert_signing": 12.71,
+        "onchain_mint": 29.25,
+        "orig_verification": 7.85,
+        "altered_verification": 6.76
+      },
+      "blockchain": {
+        "tx_hash": "c4fd397aad535c6a277df9c1c05bf4b14d571570a206caff7c0b8b3b86893357",
+        "block_number": 3,
+        "gas_used": 316259,
+        "gas_price_gwei": 1.6761,
+        "tx_fee_eth": 0.00053007
+      }
+    },
+    {
+      "index": 3,
+      "asset_label": "asset_03",
+      "asset_id": "asset_44cf1a1d02",
+      "token_id": 3,
+      "certificate_id": "cert_9759e9e4a6b6",
+      "orig_size_bytes": 483064,
+      "orig_sha256": "cda7f01fd7d48b2c2582534cd63f6f1925fdc6b18a84824209684a53579cc083",
+      "altered_sha256": "ab4f10cee9e9b2f89a06f8788e7e81a74bee1e76be82668a65325694475b6325",
+      "tamper_offset": 94,
+      "local_record_hash": "cda7f01fd7d48b2c2582534cd63f6f1925fdc6b18a84824209684a53579cc083",
+      "testnet_record_hash": "cda7f01fd7d48b2c2582534cd63f6f1925fdc6b18a84824209684a53579cc083",
+      "local_vs_testnet_match": true,
+      "orig_verification_passed": true,
+      "orig_status": "VERIFIED_AUTHENTIC",
+      "altered_verification_rejected": true,
+      "altered_status": "ASSET_MODIFIED",
+      "timings_ms": {
+        "3d_generation": 147.12,
+        "cert_signing": 16.87,
+        "onchain_mint": 36.22,
+        "orig_verification": 9.01,
+        "altered_verification": 8.36
+      },
+      "blockchain": {
+        "tx_hash": "f5c8ecbdf2da96096431fab62f56cafb51272fba89ca9bb28d5800cf3b35274d",
+        "block_number": 4,
+        "gas_used": 316259,
+        "gas_price_gwei": 1.5924,
+        "tx_fee_eth": 0.00050363
+      }
+    },
+    {
+      "index": 4,
+      "asset_label": "asset_04",
+      "asset_id": "asset_5c33ba9ffc",
+      "token_id": 4,
+      "certificate_id": "cert_356977939d30",
+      "orig_size_bytes": 488000,
+      "orig_sha256": "27eef55e5ce530bdd0fff65ec11d6e4909a658c591062061abf78bb821b7cd62",
+      "altered_sha256": "701439908e79134c6c835018b39bc3b7d3115cea49341237210a7c23c8ab2fe8",
+      "tamper_offset": 104,
+      "local_record_hash": "27eef55e5ce530bdd0fff65ec11d6e4909a658c591062061abf78bb821b7cd62",
+      "testnet_record_hash": "27eef55e5ce530bdd0fff65ec11d6e4909a658c591062061abf78bb821b7cd62",
+      "local_vs_testnet_match": true,
+      "orig_verification_passed": true,
+      "orig_status": "VERIFIED_AUTHENTIC",
+      "altered_verification_rejected": true,
+      "altered_status": "ASSET_MODIFIED",
+      "timings_ms": {
+        "3d_generation": 181.51,
+        "cert_signing": 17.63,
+        "onchain_mint": 27.09,
+        "orig_verification": 7.84,
+        "altered_verification": 5.77
+      },
+      "blockchain": {
+        "tx_hash": "c64fcc54c7cfee0225e8169ab3bfa83922a3797d541e598a335b89522e979157",
+        "block_number": 5,
+        "gas_used": 316259,
+        "gas_price_gwei": 1.5192,
+        "tx_fee_eth": 0.00048045
+      }
+    },
+    {
+      "index": 5,
+      "asset_label": "asset_05",
+      "asset_id": "asset_cc0f3e5676",
+      "token_id": 5,
+      "certificate_id": "cert_8fad68bee8d5",
+      "orig_size_bytes": 484944,
+      "orig_sha256": "876b56a62f6ca57a7b28cdc11e6d657c9f9f0ace1f52f7d187ee17094ab6ff39",
+      "altered_sha256": "fa4d7ec97383608b7d4c6149f6a5861f131526f5812a6378f39cc7dd0160466b",
+      "tamper_offset": 114,
+      "local_record_hash": "876b56a62f6ca57a7b28cdc11e6d657c9f9f0ace1f52f7d187ee17094ab6ff39",
+      "testnet_record_hash": "876b56a62f6ca57a7b28cdc11e6d657c9f9f0ace1f52f7d187ee17094ab6ff39",
+      "local_vs_testnet_match": true,
+      "orig_verification_passed": true,
+      "orig_status": "VERIFIED_AUTHENTIC",
+      "altered_verification_rejected": true,
+      "altered_status": "ASSET_MODIFIED",
+      "timings_ms": {
+        "3d_generation": 220.99,
+        "cert_signing": 14.83,
+        "onchain_mint": 28.31,
+        "orig_verification": 11.19,
+        "altered_verification": 9.7
+      },
+      "blockchain": {
+        "tx_hash": "1e3329504509a65fd31faf60d49082dbf83277649abd619a999b3cd0bc839f09",
+        "block_number": 6,
+        "gas_used": 316259,
+        "gas_price_gwei": 1.455,
+        "tx_fee_eth": 0.00046014
+      }
+    },
+    {
+      "index": 6,
+      "asset_label": "asset_06",
+      "asset_id": "asset_8ebacf6584",
+      "token_id": 6,
+      "certificate_id": "cert_ec714246e9c7",
+      "orig_size_bytes": 481844,
+      "orig_sha256": "9e389e26c6a7c92e9d76684132db3090198f87d21c85e6a6e1ef7cef363e0662",
+      "altered_sha256": "ceecbb9e12806d684c87acb8558d3ba045e33bf89a62a2ec367ec69024d7fafc",
+      "tamper_offset": 124,
+      "local_record_hash": "9e389e26c6a7c92e9d76684132db3090198f87d21c85e6a6e1ef7cef363e0662",
+      "testnet_record_hash": "9e389e26c6a7c92e9d76684132db3090198f87d21c85e6a6e1ef7cef363e0662",
+      "local_vs_testnet_match": true,
+      "orig_verification_passed": true,
+      "orig_status": "VERIFIED_AUTHENTIC",
+      "altered_verification_rejected": true,
+      "altered_status": "ASSET_MODIFIED",
+      "timings_ms": {
+        "3d_generation": 146.51,
+        "cert_signing": 15.44,
+        "onchain_mint": 31.98,
+        "orig_verification": 9.9,
+        "altered_verification": 8.95
+      },
+      "blockchain": {
+        "tx_hash": "ab085f2b98f50a1030139f37807b023b9082137706c59e7f6c6657d011e70ed0",
+        "block_number": 7,
+        "gas_used": 316259,
+        "gas_price_gwei": 1.3987,
+        "tx_fee_eth": 0.00044235
+      }
+    },
+    {
+      "index": 7,
+      "asset_label": "asset_07",
+      "asset_id": "asset_f18614fcee",
+      "token_id": 7,
+      "certificate_id": "cert_4e01dcc6ec6f",
+      "orig_size_bytes": 478100,
+      "orig_sha256": "f2358a6c6b85fe5ea769e5a02817a91276b43b1eba4572d62c725f5ad19c3ae0",
+      "altered_sha256": "503eb37c9cb2b1bf842f64ea7a30fe5294ac6b924993c229e96159eb46eb90df",
+      "tamper_offset": 134,
+      "local_record_hash": "f2358a6c6b85fe5ea769e5a02817a91276b43b1eba4572d62c725f5ad19c3ae0",
+      "testnet_record_hash": "f2358a6c6b85fe5ea769e5a02817a91276b43b1eba4572d62c725f5ad19c3ae0",
+      "local_vs_testnet_match": true,
+      "orig_verification_passed": true,
+      "orig_status": "VERIFIED_AUTHENTIC",
+      "altered_verification_rejected": true,
+      "altered_status": "ASSET_MODIFIED",
+      "timings_ms": {
+        "3d_generation": 130.03,
+        "cert_signing": 11.99,
+        "onchain_mint": 32.76,
+        "orig_verification": 7.55,
+        "altered_verification": 8.41
+      },
+      "blockchain": {
+        "tx_hash": "4ea5d5f89a244f565ce0c158b119ba3078d13d4b8539f86782f6e66448236ec0",
+        "block_number": 8,
+        "gas_used": 316259,
+        "gas_price_gwei": 1.3494,
+        "tx_fee_eth": 0.00042675
+      }
+    },
+    {
+      "index": 8,
+      "asset_label": "asset_08",
+      "asset_id": "asset_9e481f0951",
+      "token_id": 8,
+      "certificate_id": "cert_94a0641c200a",
+      "orig_size_bytes": 489940,
+      "orig_sha256": "e9ba86ebb3809a7aae5c88d66e352119bb3828c2d6e0bdb7fc52047fe8bd328c",
+      "altered_sha256": "467241e7d1be17e73ffc4c0ceca7ab879833d2d84b3789f8a496192822b65104",
+      "tamper_offset": 144,
+      "local_record_hash": "e9ba86ebb3809a7aae5c88d66e352119bb3828c2d6e0bdb7fc52047fe8bd328c",
+      "testnet_record_hash": "e9ba86ebb3809a7aae5c88d66e352119bb3828c2d6e0bdb7fc52047fe8bd328c",
+      "local_vs_testnet_match": true,
+      "orig_verification_passed": true,
+      "orig_status": "VERIFIED_AUTHENTIC",
+      "altered_verification_rejected": true,
+      "altered_status": "ASSET_MODIFIED",
+      "timings_ms": {
+        "3d_generation": 123.03,
+        "cert_signing": 13.16,
+        "onchain_mint": 27.66,
+        "orig_verification": 10.17,
+        "altered_verification": 9.07
+      },
+      "blockchain": {
+        "tx_hash": "a7cf6d6461a991ae535442ebd7b57da7c1cf04cf44fd7d871bdabe89cbba286a",
+        "block_number": 9,
+        "gas_used": 316259,
+        "gas_price_gwei": 1.3062,
+        "tx_fee_eth": 0.00041309
+      }
+    },
+    {
+      "index": 9,
+      "asset_label": "asset_09",
+      "asset_id": "asset_4f258dcd10",
+      "token_id": 9,
+      "certificate_id": "cert_a3c541502ce9",
+      "orig_size_bytes": 483276,
+      "orig_sha256": "1b09c0950852c3369261dd2dbcf960b6ab93f5553d1d5c4f3676a296f43b9135",
+      "altered_sha256": "9a83574c9718387c99697fa6a649d6c034c1c16890f5d1fc8989abd456352ef3",
+      "tamper_offset": 154,
+      "local_record_hash": "1b09c0950852c3369261dd2dbcf960b6ab93f5553d1d5c4f3676a296f43b9135",
+      "testnet_record_hash": "1b09c0950852c3369261dd2dbcf960b6ab93f5553d1d5c4f3676a296f43b9135",
+      "local_vs_testnet_match": true,
+      "orig_verification_passed": true,
+      "orig_status": "VERIFIED_AUTHENTIC",
+      "altered_verification_rejected": true,
+      "altered_status": "ASSET_MODIFIED",
+      "timings_ms": {
+        "3d_generation": 194.95,
+        "cert_signing": 16.1,
+        "onchain_mint": 35.27,
+        "orig_verification": 7.38,
+        "altered_verification": 5.54
+      },
+      "blockchain": {
+        "tx_hash": "bc4ce5cd31965240c3ba051c9c90700e8028bcb33d1f6a4ebf556700f122aef9",
+        "block_number": 10,
+        "gas_used": 316259,
+        "gas_price_gwei": 1.2683,
+        "tx_fee_eth": 0.00040111
+      }
+    },
+    {
+      "index": 10,
+      "asset_label": "asset_10",
+      "asset_id": "asset_3e369aa165",
+      "token_id": 10,
+      "certificate_id": "cert_74f2c2d3271e",
+      "orig_size_bytes": 480444,
+      "orig_sha256": "f83526545e775ad09d266deef3d87948b6d5fcabab13559d5f22e4ed70cbdb93",
+      "altered_sha256": "a3408e92c82a25c5772e629e9b98a838adafb6521084085d6c60c8a6317890ca",
+      "tamper_offset": 164,
+      "local_record_hash": "f83526545e775ad09d266deef3d87948b6d5fcabab13559d5f22e4ed70cbdb93",
+      "testnet_record_hash": "f83526545e775ad09d266deef3d87948b6d5fcabab13559d5f22e4ed70cbdb93",
+      "local_vs_testnet_match": true,
+      "orig_verification_passed": true,
+      "orig_status": "VERIFIED_AUTHENTIC",
+      "altered_verification_rejected": true,
+      "altered_status": "ASSET_MODIFIED",
+      "timings_ms": {
+        "3d_generation": 116.07,
+        "cert_signing": 13.58,
+        "onchain_mint": 35.99,
+        "orig_verification": 12.28,
+        "altered_verification": 10.51
+      },
+      "blockchain": {
+        "tx_hash": "025f9adca0d5ee09a3e2273c499b7997ab0cb29e41229cc92fb24d0020305644",
+        "block_number": 11,
+        "gas_used": 316259,
+        "gas_price_gwei": 1.2351,
+        "tx_fee_eth": 0.00039062
+      }
+    }
+  ]
+}

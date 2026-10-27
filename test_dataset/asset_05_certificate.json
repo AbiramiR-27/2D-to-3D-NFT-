@@ -1,0 +1,20 @@
+{
+  "certificate_id": "cert_8fad68bee8d5",
+  "payload": {
+    "certificate_id": "cert_8fad68bee8d5",
+    "asset_id": "asset_cc0f3e5676",
+    "asset_title": "Synthetic Provenance Art #05",
+    "creator_display_name": "Innovator Lab Alpha-05",
+    "model_filename": "asset_cc0f3e5676.glb",
+    "model_format": "glb",
+    "model_sha256": "876b56a62f6ca57a7b28cdc11e6d657c9f9f0ace1f52f7d187ee17094ab6ff39",
+    "issue_timestamp": "2026-10-27T09:53:47.616118+00:00",
+    "certificate_version": "1.0",
+    "signature_algorithm": "Ed25519",
+    "public_key_id": "urn:soi:key:ed25519:dev-01"
+  },
+  "signature_hex": "41a15027c0fd0b9e48ea7ba64c778e49e6917b706b0cce3012a3e9c03c8b2a4eca8d07ecaeceb0795a24d5b92aa3be78e603b386e6b2cb936b9b06e266bf550e",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAkfHgFNWIlykQoWO7AhtYiiR9DhBDVlutQERNijxsZs4=\n-----END PUBLIC KEY-----\n",
+  "is_development_key": true,
+  "trust_note": "Notice: This certificate uses a local development Ed25519 key for demonstration purposes. A valid cryptographic signature proves the certificate contents have not been altered since issuance by the holder of this private key, but does not verify real-world legal identity."
+}
