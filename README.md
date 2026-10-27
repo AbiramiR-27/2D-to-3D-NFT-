@@ -8,7 +8,7 @@
 [![Hardhat](https://img.shields.io/badge/Hardhat-2.22-yellow.svg)](https://hardhat.org/)
 [![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-5.0-red.svg)](https://openzeppelin.com/)
 
-> **School of Innovation (SoI) — Phase 2 Project Proof of Concept (POC)**  
+> **School of Innovation (SoI) — Phase 3 Project Proof of Concept (POC)**  
 > **Selected Concept**: `I02 — Conventional Signed Certificate`  
 > **Blockchain Network**: **Local Development Chain (Hardhat EVM, Chain ID 31337) — Local-Chain PoC**  
 
