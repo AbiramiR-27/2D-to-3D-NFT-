@@ -1,0 +1,148 @@
+{
+  "audit_timestamp": "2026-10-27T09:53:49Z",
+  "quality_metrics": {
+    "total_test_files": 10,
+    "unchanged_files_verified": 10,
+    "altered_files_detected": 10,
+    "hash_agreement_count": 10,
+    "false_mismatches": 0,
+    "failures": 0,
+    "retests": 0,
+    "accuracy_rate_percent": 100.0
+  },
+  "timings": {
+    "average_original_verification_ms": 9.44,
+    "average_altered_verification_ms": 8.28,
+    "average_onchain_mint_time_ms": 32.51
+  },
+  "cost_analysis": {
+    "network_type": "Local Hardhat EVM (Chain ID 31337) - Zero Gas Cost",
+    "total_gas_consumed": 3179690,
+    "average_gas_per_mint": 317969,
+    "simulated_fee_eth": 0.00463873,
+    "theoretical_usd_estimate_at_3000_eth": 13.9162,
+    "economic_modeling_disclaimer": "The USD valuation ($13.92) is a theoretical projection assuming $3,000/ETH and does NOT represent real fiat disbursement. All transactions executed on a zero-cost local Hardhat development chain."
+  },
+  "verifications": [
+    {
+      "asset_label": "asset_01",
+      "original_file": "asset_01.glb",
+      "original_file_hash": "ecc112cd260669714ab691479a6da9ecb857424a0d38c51d3cc65c416aed90c6",
+      "original_verification_result": "VERIFIED_AUTHENTIC",
+      "original_verification_time_ms": 11.19,
+      "altered_file": "asset_01_altered.glb",
+      "altered_file_hash": "98c694fbdff403e170a5b8dae376a4f3b08d6246827da6e02c647b54371a676c",
+      "altered_verification_result": "ASSET_MODIFIED",
+      "altered_verification_time_ms": 9.71,
+      "tamper_detected": true
+    },
+    {
+      "asset_label": "asset_02",
+      "original_file": "asset_02.glb",
+      "original_file_hash": "1054e2d4d55dc6adfe17b9d571c04d61cb01e03a0d7320dfdc8d05185e46376f",
+      "original_verification_result": "VERIFIED_AUTHENTIC",
+      "original_verification_time_ms": 7.85,
+      "altered_file": "asset_02_altered.glb",
+      "altered_file_hash": "3fb4b2f09d73eb4b1a63b365e87a32613a28496e270163a2ed9e0529e018aa42",
+      "altered_verification_result": "ASSET_MODIFIED",
+      "altered_verification_time_ms": 6.76,
+      "tamper_detected": true
+    },
+    {
+      "asset_label": "asset_03",
+      "original_file": "asset_03.glb",
+      "original_file_hash": "cda7f01fd7d48b2c2582534cd63f6f1925fdc6b18a84824209684a53579cc083",
+      "original_verification_result": "VERIFIED_AUTHENTIC",
+      "original_verification_time_ms": 9.01,
+      "altered_file": "asset_03_altered.glb",
+      "altered_file_hash": "ab4f10cee9e9b2f89a06f8788e7e81a74bee1e76be82668a65325694475b6325",
+      "altered_verification_result": "ASSET_MODIFIED",
+      "altered_verification_time_ms": 8.36,
+      "tamper_detected": true
+    },
+    {
+      "asset_label": "asset_04",
+      "original_file": "asset_04.glb",
+      "original_file_hash": "27eef55e5ce530bdd0fff65ec11d6e4909a658c591062061abf78bb821b7cd62",
+      "original_verification_result": "VERIFIED_AUTHENTIC",
+      "original_verification_time_ms": 7.84,
+      "altered_file": "asset_04_altered.glb",
+      "altered_file_hash": "701439908e79134c6c835018b39bc3b7d3115cea49341237210a7c23c8ab2fe8",
+      "altered_verification_result": "ASSET_MODIFIED",
+      "altered_verification_time_ms": 5.77,
+      "tamper_detected": true
+    },
+    {
+      "asset_label": "asset_05",
+      "original_file": "asset_05.glb",
+      "original_file_hash": "876b56a62f6ca57a7b28cdc11e6d657c9f9f0ace1f52f7d187ee17094ab6ff39",
+      "original_verification_result": "VERIFIED_AUTHENTIC",
+      "original_verification_time_ms": 11.19,
+      "altered_file": "asset_05_altered.glb",
+      "altered_file_hash": "fa4d7ec97383608b7d4c6149f6a5861f131526f5812a6378f39cc7dd0160466b",
+      "altered_verification_result": "ASSET_MODIFIED",
+      "altered_verification_time_ms": 9.7,
+      "tamper_detected": true
+    },
+    {
+      "asset_label": "asset_06",
+      "original_file": "asset_06.glb",
+      "original_file_hash": "9e389e26c6a7c92e9d76684132db3090198f87d21c85e6a6e1ef7cef363e0662",
+      "original_verification_result": "VERIFIED_AUTHENTIC",
+      "original_verification_time_ms": 9.9,
+      "altered_file": "asset_06_altered.glb",
+      "altered_file_hash": "ceecbb9e12806d684c87acb8558d3ba045e33bf89a62a2ec367ec69024d7fafc",
+      "altered_verification_result": "ASSET_MODIFIED",
+      "altered_verification_time_ms": 8.95,
+      "tamper_detected": true
+    },
+    {
+      "asset_label": "asset_07",
+      "original_file": "asset_07.glb",
+      "original_file_hash": "f2358a6c6b85fe5ea769e5a02817a91276b43b1eba4572d62c725f5ad19c3ae0",
+      "original_verification_result": "VERIFIED_AUTHENTIC",
+      "original_verification_time_ms": 7.55,
+      "altered_file": "asset_07_altered.glb",
+      "altered_file_hash": "503eb37c9cb2b1bf842f64ea7a30fe5294ac6b924993c229e96159eb46eb90df",
+      "altered_verification_result": "ASSET_MODIFIED",
+      "altered_verification_time_ms": 8.41,
+      "tamper_detected": true
+    },
+    {
+      "asset_label": "asset_08",
+      "original_file": "asset_08.glb",
+      "original_file_hash": "e9ba86ebb3809a7aae5c88d66e352119bb3828c2d6e0bdb7fc52047fe8bd328c",
+      "original_verification_result": "VERIFIED_AUTHENTIC",
+      "original_verification_time_ms": 10.17,
+      "altered_file": "asset_08_altered.glb",
+      "altered_file_hash": "467241e7d1be17e73ffc4c0ceca7ab879833d2d84b3789f8a496192822b65104",
+      "altered_verification_result": "ASSET_MODIFIED",
+      "altered_verification_time_ms": 9.07,
+      "tamper_detected": true
+    },
+    {
+      "asset_label": "asset_09",
+      "original_file": "asset_09.glb",
+      "original_file_hash": "1b09c0950852c3369261dd2dbcf960b6ab93f5553d1d5c4f3676a296f43b9135",
+      "original_verification_result": "VERIFIED_AUTHENTIC",
+      "original_verification_time_ms": 7.38,
+      "altered_file": "asset_09_altered.glb",
+      "altered_file_hash": "9a83574c9718387c99697fa6a649d6c034c1c16890f5d1fc8989abd456352ef3",
+      "altered_verification_result": "ASSET_MODIFIED",
+      "altered_verification_time_ms": 5.54,
+      "tamper_detected": true
+    },
+    {
+      "asset_label": "asset_10",
+      "original_file": "asset_10.glb",
+      "original_file_hash": "f83526545e775ad09d266deef3d87948b6d5fcabab13559d5f22e4ed70cbdb93",
+      "original_verification_result": "VERIFIED_AUTHENTIC",
+      "original_verification_time_ms": 12.28,
+      "altered_file": "asset_10_altered.glb",
+      "altered_file_hash": "a3408e92c82a25c5772e629e9b98a838adafb6521084085d6c60c8a6317890ca",
+      "altered_verification_result": "ASSET_MODIFIED",
+      "altered_verification_time_ms": 10.51,
+      "tamper_detected": true
+    }
+  ]
+}
